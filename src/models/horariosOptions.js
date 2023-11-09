@@ -1,0 +1,36 @@
+export const horariosOptions = {
+    manha: [
+      'Segunda-feira: 07:40 às 11:10',
+      'Sexta-feira: 07:40 às 09:30',
+      'Terça-feira: 07:30 às 09:30',
+    ],
+    tarde: [
+      'Quarta-feira: 11:20 às 12:40',
+      'Quinta-feira: 11:20 às 12:40',
+      'Quarta-feira: 11:15 às 12:45',
+      'Quinta-feira: 11:15 às 12:45',
+      'Sexta-feira: 12:40 às 15:40',
+      'Quarta-feira: 16:00 às 19:00',
+      'Sexta-feira: 15:00 às 17:00',
+    ],
+    noite: [
+      'Quarta-feira: 20:30 às 22:30',
+      'Sexta-feira: 15:00 às 19:00',
+      'Segunda-feira: 16:00 às 19:00',
+      'Quinta-feira: 17:30 às 19:00',
+      'Quarta-feira: 16:00 às 19:00',
+      'Quinta-feira: 17:30 às 19:00',
+      'Sexta-feira: 17:30 às 19:00',
+      'Segunda-feira: 17:00 às 19:00',
+      'Terça-feira: 18:00 às 19:00',
+      'Quarta-feira: 18:00 às 19:00',
+      'Quinta-feira: 18:00 às 19:00',
+      'Sexta-feira: 18:00 às 19:00',
+      'Segunda-feira: 18:00 às 19:00',
+      'Terça-feira: 18:00 às 19:00',
+      'Quarta-feira: 18:00 às 19:00',
+      'Quinta-feira: 18:00 às 19:00',
+      'Sexta-feira: 18:00 às 19:00',
+    ],
+  };
+  

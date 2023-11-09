@@ -1,0 +1,141 @@
+.cardContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 2fr)); /* Define as colunas da grid com tamanho mínimo de 200px */
+  justify-content: center; /* Alinha os Cards ao centro */
+  gap: 32px; /* Espaçamento entre os Cards */
+}
+
+.card {
+  align-items: center;
+  width: 50%; /* Largura total do espaço da célula na grid */
+  margin: 16px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.MuiCardMedia-media {
+  width: 100%;
+}
+.MuiCard-root{
+  margin: 1% 10%;
+  padding-top: 15px;
+  display: grid;
+  grid-template-columns: 2fr;
+}
+.MuiTypography-body2, .MuiTypography-subtitle1
+{
+  line-break: auto  ;
+  width: 90%;
+}
+
+
+.MuiGrid-spacing-xs-1 {
+  display: flex;
+  justify-content: center;
+  width: calc(70% + 8px);
+  flex-direction:row ;
+  margin: -4px;
+  padding: 5px;
+}
+/* Search de pesquisa */
+.MuiGrid-grid-xs-2{
+  max-width: max-content;
+}
+/* Button search */
+.iconePesquisa {
+  height: 48px;
+  min-height: 32px;
+  width: calc(45% + 8px);
+
+}
+.MuiButton-iconSizeMedium {
+  font-size: 22px;
+}
+.media {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 16px;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  font-size: 1rem;
+  margin-bottom: 8px;
+}
+
+.details {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.time {
+  font-weight: bold;
+  color: #333;
+}
+@media (max-width: 960px) {
+  .cardContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 2fr)); /* Define as colunas da grid com tamanho mínimo de 200px */
+    justify-content: center; /* Alinha os Cards ao centro */
+    gap: 32px; /* Espaçamento entre os Cards */
+  }
+  
+  .MuiCard-root .MuiGrid-container {
+    flex-direction: initial; /* Muda a direção do flex container para coluna */
+    /* text-align: center; */
+    margin: 0 auto;
+  }
+  
+  .card {
+    width: 75%;
+  }
+  .MuiCardMedia-media{
+    align-items: flex-start;
+
+  }
+  .MuiGrid-spacing-xs-1 {
+    width: calc(60% + 8px);
+    margin: -4px;
+    display: flex;
+    flex-direction:row;
+  }
+}
+
+@media (max-width: 630px) {
+  .cardContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Define as colunas da grid com tamanho mínimo de 200px */
+    justify-content: center; /* Alinha os Cards ao centro */
+   /* Espaçamento entre os Cards */
+  }
+  
+  .MuiCard-root .MuiGrid-container {
+    flex-direction: column; /* Muda a direção do flex container para coluna */
+    /* text-align: center; */
+    margin: 0 auto;
+  }
+  
+  .card {
+    width: 75%;
+  }
+  .MuiCardMedia-media{
+    align-items: flex-start;
+    
+    width: max-content;
+    width: 100%;
+  }
+  .MuiGrid-spacing-xs-1 {
+    width: calc(50% + 8px);
+    margin: -4px;
+    display: flex;
+    flex-direction:row;
+  }
+}
