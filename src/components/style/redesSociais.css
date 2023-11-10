@@ -1,0 +1,29 @@
+.destaque-redes {
+  font-size: 1.2em;
+  display: flex;
+  margin:  16px 0;
+  justify-content: center;
+flex-wrap: wrap;
+}
+.ico-social {
+  width: 25px;
+  height: 25px;
+  margin: 0 5px;
+}
+.youtube{
+    width:  35.53px;
+  margin: 0 5px;
+
+}
+.text-center {
+  text-align: center !important;
+}
+
+span {
+  color: #b01116;
+  margin-left:  5px ;
+}
+.my-3 {
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+}

@@ -1,0 +1,12 @@
+#bannerInterno .carousel-item,.banner-interno {
+    min-height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: 50%
+}
+.carousel-control-next,.carousel-control-prev{
+    display: none !important;
+}
+.carousel-indicators .active{
+    display: none !important;
+}
