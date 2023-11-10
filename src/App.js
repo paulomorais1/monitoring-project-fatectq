@@ -3,7 +3,8 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Header from "./components/shared/header";
 import Footer from "./components/shared/footer";
 import HomeContainer from "./containers/HomeContainer";
-// import MonitorDetailsContainer from './containers/MonitorDetailsContainer';
+import Banner from "./components/shared/banner"; // Importe o componente Banner
+
 import "./App.css";
 
 const App = () => {
@@ -11,6 +12,9 @@ const App = () => {
     <Router>
       <div>
         <Header />
+        <Routes>
+          <Route path="/" element={<Banner />} />
+        </Routes>
         <Routes>
           <Route path="/" element={<HomeContainer />} />
         </Routes>
