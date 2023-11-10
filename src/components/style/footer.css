@@ -1,0 +1,124 @@
+
+body {
+  font-family: "Source Sans Pro", sans-serif !important;
+  min-height: 100vh;
+  color: #4a555c;
+  line-height: 1.35;
+}
+
+.py-4 {
+  padding-top: 1.5rem!important;
+  padding-bottom: 1.5rem!important;
+  justify-content: center;
+  width: 100%;
+}
+.btn-fatec {
+  background-color: #b01116;
+  color: #fff;
+}
+
+.btn-fatec:hover {
+  background-color: #4a555c;
+  color: #fff;
+}
+
+.btn-fatec.active {
+  background-color: #b01116;
+  color: #fff;
+}
+
+.box-horario {
+  background-color: #eee;
+  padding: 3px 5px;
+  border-radius: 2px;
+}
+
+.btn-vestibular {
+  background-color: #fff;
+  color: #222;
+}
+
+.btn-vestibular:hover {
+  color: #fff;
+  background-color: #222;
+}
+
+.logoCps {
+  height: 60px;
+  fill: white;
+  width: 91.39px;
+}
+.logoFatec {
+  width: 134.23;
+  height: 60px;
+}
+footer ,.list-group-item{
+    background-color: #4a555c;
+    color: #fff;
+}
+footer img{
+    filter: brightness(100);
+    max-height: 80px;
+}
+.titulo-footer {
+    font-weight: 700;
+    padding: 5px 0;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 15px;
+}
+
+.flex-wrap {
+  flex-wrap: wrap!important;
+}
+
+.d-flex {
+  display: flex!important;
+}
+.my-2 {
+  margin-top: 0.5rem!important;
+  margin-bottom: 0.5rem!important;
+}
+.list-group-item-custom {
+  border: none;
+  padding: 0.2rem;
+  margin: 0;
+  font-size: 14px;
+
+}
+
+.endereco-fone div{
+  margin-right: 35px;
+}
+.separador-footer {
+  border-top: 1px solid #fff;
+  width: 100%;
+  margin: 25px 0;
+}
+@media (min-width: 1200px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 992px) {
+  
+  .navbar-toggler {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .container,
+  .container-md,
+  .container-sm {
+    max-width: 720px;
+  }
+}
+@media (min-width: 576px) {
+  .container,
+  .container-sm {
+    max-width: 540px;
+  }
+}
