@@ -4,7 +4,7 @@ import Header from "./components/shared/header";
 import Footer from "./components/shared/footer";
 import HomeContainer from "./containers/HomeContainer";
 import Banner from "./components/shared/banner"; // Importe o componente Banner
-
+import RedesSociais from "./components/shared/redesSociais";
 import "./App.css";
 
 const App = () => {
@@ -14,6 +14,9 @@ const App = () => {
         <Header />
         <Routes>
           <Route path="/" element={<Banner />} />
+        </Routes>
+        <Routes>
+          <Route path="/" element={<RedesSociais />} />
         </Routes>
         <Routes>
           <Route path="/" element={<HomeContainer />} />
