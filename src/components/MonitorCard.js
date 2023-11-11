@@ -9,7 +9,7 @@ const MonitorCard = ({ monitor }) => {
   const horariosNoite = monitor.horariosDisponiveis?.noite ? monitor.horariosDisponiveis.noite.join(', ') : '';
 
   return (
-    <Card className="card">
+    <Card className="card container">
       <Grid container style={{ flexWrap: 'nowrap', alignItems: 'center' }} spacing={1}>
         <Grid item xs={12} sm={4} md={3}>
           <CardMedia

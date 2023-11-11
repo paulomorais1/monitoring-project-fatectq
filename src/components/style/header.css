@@ -1,78 +1,91 @@
+.justify-content-around {
+  justify-content: space-around !important;
+}
+.navbar-collapse{
+margin: 0 14px;
 
-.navbar > .container{
-    display: flex;
-  flex-wrap: inherit;
-  align-items: center;
-  justify-content: space-around;
-  
+}
+.logoFatec,
+.qrCodeMec {
+  height: 80px;
+}
+.logoCps {
+  height: 60px;
+}
+.logoFatec {
+  width: 134.23;
+}
+.qrCodeMec {
+  width: 158.77;
+}
+
+.dropdown-toggle::after {
+  display: none !important;
+}
+.nav-item {
+  margin: 0 10px;
+}
+
+#responsive-navbar-nav {
+  text-align: center;
+}
+
+.container-spacing {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.link-footer {
+  text-decoration: none;
+  color: white;
+}
+
+/* Adapte conforme necessário para atender ao seu design */
+
+
+@media (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1320px;
   }
- 
-  .justify-content-around {
-    justify-content: space-around !important;
+}
+@media (min-width: 1200px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1140px;
   }
-  
-  .logoFatec,
-  .qrCodeMec {
-    height: 80px;
+}
+@media (min-width: 992px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm {
+    max-width: 960px;
   }
-  .logoCps {
-    height: 60px;
+}
+@media (min-width: 768px) {
+  .container,
+  .container-md,
+  .container-sm {
+    max-width: 720px;
   }
-  .logoFatec {
-    width: 134.23;
-  }
-  .qrCodeMec {
-    width: 158.77;
-  }
-  
-  .dropdown-toggle::after {
-    display: none !important;
-  }
-  
-  
-  #responsive-navbar-nav{
-    text-align: center;
-  }
-  
+}
+@media (min-width: 576px) {
   .container-spacing {
-    padding-left: 16px;
-    padding-right: 16px;
+    max-width: 540px;
+    margin-left: auto;
+    margin-right: auto;
   }
-  .link-footer{
-    text-decoration: none;
-    color: white;
+  .container,
+  .container-sm {
+    max-width: 540px;
   }
-  
-  /* Adapte conforme necessário para atender ao seu design */
-  @media (min-width: 576px) {
-    .container-spacing {
-      max-width: 540px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-  }
-  
-  @media (min-width: 768px) {
-    .container-spacing {
-      max-width: 720px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-  }
-  
-  @media (min-width: 992px) {
-    .container-spacing {
-      max-width: 960px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-  }
-  
-  @media (min-width: 1200px) {
-    .container-spacing {
-      max-width: 1140px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-  }
-  
+}
+
+

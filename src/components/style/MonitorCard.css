@@ -2,12 +2,11 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(240px, 2fr)); /* Define as colunas da grid com tamanho mínimo de 200px */
   justify-content: center; /* Alinha os Cards ao centro */
-  gap: 32px; /* Espaçamento entre os Cards */
 }
 
 .card {
   align-items: center;
-  width: 50%; /* Largura total do espaço da célula na grid */
+  width: 55%; /* Largura total do espaço da célula na grid */
   margin: 16px;
   padding: 8px;
   border: 1px solid #ccc;
@@ -18,7 +17,7 @@
   width: 100%;
 }
 .MuiCard-root{
-  margin: 1% 10%;
+  margin: 1% 14%;
   padding-top: 15px;
   display: grid;
   grid-template-columns: 2fr;
@@ -28,8 +27,6 @@
   line-break: auto  ;
   width: 90%;
 }
-
-
 .MuiGrid-spacing-xs-1 {
   display: flex;
   justify-content: center;

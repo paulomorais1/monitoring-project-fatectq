@@ -9,8 +9,7 @@ body {
 .py-4 {
   padding-top: 1.5rem!important;
   padding-bottom: 1.5rem!important;
-  justify-content: center;
-  width: 100%;
+  
 }
 .btn-fatec {
   background-color: #b01116;
@@ -43,12 +42,12 @@ body {
   background-color: #222;
 }
 
-.logoCps {
+.footerlogoCps {
   height: 60px;
   fill: white;
   width: 91.39px;
 }
-.logoFatec {
+.footerlogoFatec {
   width: 134.23;
   height: 60px;
 }
@@ -94,31 +93,26 @@ footer img{
   width: 100%;
   margin: 25px 0;
 }
-@media (min-width: 1200px) {
-  .container,
-  .container-lg,
-  .container-md,
-  .container-sm,
-  .container-xl {
+/* @media (min-width: 1200px) {
+  .container-footer {
     max-width: 1140px;
   }
 }
 @media (min-width: 992px) {
-  
+  .container-footer {
+    max-width: 810px;
+  }
   .navbar-toggler {
     display: none;
   }
 }
 @media (min-width: 768px) {
-  .container,
-  .container-md,
-  .container-sm {
+  .container-footer {
     max-width: 720px;
   }
 }
 @media (min-width: 576px) {
-  .container,
-  .container-sm {
+  .container-footer {
     max-width: 540px;
   }
-}
+} */

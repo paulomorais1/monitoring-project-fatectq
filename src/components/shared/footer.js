@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col, ListGroup } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-// import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import logo from "../upload/header/FatecTaquaritinga.svg";
 import CPS from "../upload/header/logoCPS.svg";
 import "../style/footer.css"; // Importe seus estilos locais aqui
@@ -9,8 +9,8 @@ import "../style/footer.css"; // Importe seus estilos locais aqui
 const Footer = () => {
   return (
     <footer>
-      <Container fluid className="py-4 container-spacing">
-        <Row className="fnivel1">
+      <Container fluid className="py-4 container footer" expand="lg">
+        <Row >
           {/* Cursos */}
           <Col md={3}>
             <div className="titulo-footer">Cursos</div>
@@ -229,10 +229,10 @@ const Footer = () => {
           {/* Imagens dos Logos */}
           <Col md={12} className="d-flex flex-wrap mb-3">
             <div>
-              <img src={logo} alt="Fatec Taquaritinga" className="logoFatec" />
+              <img src={logo} alt="Fatec Taquaritinga" className="footerlogoFatec" />
             </div>
             <div>
-              <img src={CPS} alt="CPS" className="logoCps" />
+              <img src={CPS} alt="CPS" className="footerlogoCps" />
             </div>
 
             {/* Endereço e Contatos */}

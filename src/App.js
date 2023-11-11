@@ -3,8 +3,9 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Header from "./components/shared/header";
 import Footer from "./components/shared/footer";
 import HomeContainer from "./containers/HomeContainer";
-import Banner from "./components/shared/banner"; // Importe o componente Banner
+import Banner from "./components/shared/banner";
 import RedesSociais from "./components/shared/redesSociais";
+import NoticiasSection from "./components/NoticiasSection"; // Importe o componente NoticiasSection
 import "./App.css";
 
 const App = () => {
@@ -18,9 +19,15 @@ const App = () => {
         <Routes>
           <Route path="/" element={<RedesSociais />} />
         </Routes>
-        <Routes>
-          <Route path="/" element={<HomeContainer />} />
-        </Routes>
+        <div>
+          <Routes>
+            <Route path="/" element={<HomeContainer />} />
+            {/* Adicione a rota para a seção de notícias */}
+          </Routes>
+          <Routes>
+            <Route path="" element={<NoticiasSection />} />
+          </Routes>
+        </div>
         <Footer />
       </div>
     </Router>

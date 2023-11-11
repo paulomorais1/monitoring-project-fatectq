@@ -1,0 +1,20 @@
+/* NoticiasSection.css */
+
+.noticias-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .noticia-card {
+    max-width: 300px;
+    margin: 10px;
+  }
+  
+  .media {
+    height: 140px;
+  }
+  
+  /* Adicione mais estilos conforme necessário */
+  
